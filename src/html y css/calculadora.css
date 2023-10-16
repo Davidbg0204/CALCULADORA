@@ -1,0 +1,117 @@
+body{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+header{
+    background: #BBBBBB;
+    padding: 0;
+    
+}
+
+.encabezado{
+    width: 99%;
+    position: relative;
+    margin: 0 auto;
+    
+}
+
+nav{
+    nav{
+        position: absolute;
+        top: 110px;
+        right: 0;
+    }
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+#entrada{
+    border: none;
+    background: transparent;
+    outline: none;
+    margin: 0;
+    top: 0;
+    left: 0;
+    padding: 0 3px;
+    font-size: 1em;
+    line-height: 1em;
+    font-family: inherit;
+    -webkit-touch-callout: none;
+    width: 70%;
+}
+
+.botones_Despliegue{
+    display: block;
+    
+    flex-direction: row;
+    padding: 0px;
+    gap: 24px;
+    width: 40%;
+    height: 18%;
+    left: 0;
+    
+}
+
+.Despliegue{
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    box-shadow: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-weight: inherit;
+    font-size: inherit;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    height: 30px;
+    width: 30px;
+    
+}
+
+.Despliegue:active{
+    color: #0f172a;
+    background-color: #0f172a;
+    border-color: #0f172a;
+    outline: none;
+}
+
+
+
+.operaciones{
+    display: none;
+    background: #6C9BCF;
+
+}
+
+.MB{
+    background: #A5C0DD;
+    border: none;
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+}
+
+
